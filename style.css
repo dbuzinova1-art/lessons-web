@@ -1,0 +1,98 @@
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  max-width: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  border-color: goldenrod;
+  box-shadow: 0 0 4px goldenrod;
+  outline: none;
+}
+
+
+} */
+.image-with-text {
+  float: right; /* Изображение справа */
+  margin-left: 15px; /* Отступ слева от изображения */
+}
+
+
+.dark {
+  background: #0e0e0e;
+  color: white;
+}
+
+.light {
+  background: #fff;
+  color: black;
+}
+
+body { font-family: Arial, sans-serif; line-height: 1.5; margin: 20px; }
+    nav a { margin-right: 12px; text-decoration: none; color: #0b66c3; }
+    header, main, aside, footer { margin-bottom: 24px; }
+    section { margin-top: 12px; padding: 8px 12px; border-left: 3px solid #eee; }
+    .contact a { display:inline-block; margin-right:8px; }
+    ul { margin: 8px 0 8px 20px; }
+    label { display:block; margin:6px 0; }
+    .form-row { margin-bottom:8px; }
+    .skills-list { columns:2 }
+    img.profile { width:110px; height:110px; object-fit:cover; border-radius:8px; }
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  max-width: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+
+button {
+  padding: 10px;
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.skills-list {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.soft-skills{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
