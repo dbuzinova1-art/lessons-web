@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog - Новогодние товары</title>
+    <link rel="stylesheet" href="style2hometask.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">K</div>
+            <div class="header-text">
+                <h1>Katalog</h1>
+                <p>Пример: Flexbox + Grid</p>
+            </div>
+        </div>
+        
+        <!-- Навигация-->
+        <nav class="nav">
+            <a href="#">Все</a>
+            <a href="#">Новинки</a>
+            <a href="#">Контакты</a>
+        </nav>
+        
+        <!-- Панель поиска-->
+        <div class="search">
+            <input type="search" placeholder="Поиск по товарам..." aria-label="Поиск по товарам">
+        </div>
+    </header>
+
+    <!-- Основной контейнер -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Категории</h2>
+            <div class="filter-group">
+                <button class="filter-button">Все категории</button>
+                <button class="filter-button">Ёлочные игрушки</button>
+                <button class="filter-button">Гирлянды</button>
+                <button class="filter-button">Подарки</button>
+            </div>
+
+            <h2>Ценовой диапазон</h2>
+            <div class="filter-group">
+                <button class="filter-button">до 500 ₽</button>
+                <button class="filter-button">500–1500 ₽</button>
+                <button class="filter-button">1500+ ₽</button>
+            </div>
+        </aside>
+
+        <!-- Основной контент -->
+        <main class="main-content">
+            <div class="content-header">
+                <h2>Товары</h2>
+                <div class="sort">
+                    <label>Сортировать:</label>
+                    <select>
+                        <option>Популярные</option>
+                        <option>Сначала новые</option>
+                        <option>Сначала старые</option>
+                    </select>
+                </div>
+            </div>
+            
+
+            <div class="products-grid">
+                <!-- Карточка 1-->
+                <article class="product-card">
+                    <div class="card-img red-1" aria-label="Набор ёлочных шаров"></div>
+                    <h3>Набор ёлочных шаров</h3>
+                    <p>12 стеклянных игрушек с блёстками.</p>
+                    <div class="card-footer">
+                        <span class="price">590 ₽</span>
+                        <button class="buy-btn">Купить</button>
+                    </div>
+                </article>
+
+                <!-- Карточка 2-->
+                <article class="product-card">
+                    <div class="card-img red-2" aria-label="Гирлянда LED"></div>
+                    <h3>Гирлянда LED</h3>
+                    <p>5 метров, 8 режимов свечения.</p>
+                    <div class="card-footer">
+                        <span class="price">1290 ₽</span>
+                        <button class="buy-btn">Купить</button>
+                    </div>
+                </article>
+
+                <!-- Карточка 3-->
+                <article class="product-card">
+                    <div class="card-img red-3" aria-label="Новогодний венок"></div>
+                    <h3>Новогодний венок</h3>
+                    <p>Диаметр 40 см, ручная работа.</p>
+                    <div class="card-footer">
+                        <span class="price">990 ₽</span>
+                        <button class="buy-btn">Купить</button>
+                    </div>
+                </article>
+
+                <!-- Карточка 4-->
+                <article class="product-card">
+                    <div class="card-img red-4" aria-label="Плюшевый олень"></div>
+                    <h3>Плюшевый олень</h3>
+                    <p>Мягкая игрушка для детей.</p>
+                    <div class="card-footer">
+                        <span class="price">850 ₽</span>
+                        <button class="buy-btn">Купить</button>
+                    </div>
+                </article>
+
+                <!-- Карточка 5-->
+                <article class="product-card">
+                    <div class="card-img red-1" aria-label="Новогодний плед"></div>
+                    <h3>Плед "Снежный"</h3>
+                    <p>Плед Новогоднее настроение Полиэстер, 130х160 см</p>
+                    <div class="card-footer">
+                        <span class="price">1590 ₽</span>
+                        <button class="buy-btn">Купить</button>
+                    </div>
+                </article>
+
+                <!-- Карточка 6-->
+                <article class="product-card">
+                    <div class="card-img red-2" aria-label="Новогодние свечи"></div>
+                    <h3>Набор свечей</h3>
+                    <p>Ароматы хвои и корицы.</p>
+                    <div class="card-footer">
+                        <span class="price">690 ₽</span>
+                        <button class="buy-btn">Купить</button>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Katalog-демо. Все права не защищены</p>
+            
+    </footer>
+</body>
+</html>
