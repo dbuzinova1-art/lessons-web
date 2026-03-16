@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extra 1 - Загрузка по кнопке</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6fb;
+      margin: 0;
+      padding: 24px;
+    }
+
+    .panel {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 18px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    }
+
+    button {
+      background: #1f6feb;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    #content {
+      margin-top: 14px;
+      min-height: 70px;
+      padding: 12px;
+      background: #f7faff;
+      border: 1px solid #dde6f6;
+      border-radius: 8px;
+    }
+
+    .error {
+      color: #b42318;
+      font-weight: 700;
+    }
+
+    .loading {
+      color: #1d2939;
+      font-weight: 700;
+    }
+
+    .item {
+      background: #fff;
+      border: 1px solid #d7e0f2;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Extra 1</h1>
+    <button id="load-btn" type="button">Загрузить</button>
+    <div id="content">Нажмите кнопку для загрузки данных.</div>
+  </div>
+
+  <script src="./task.js"></script>
+</body>
+</html>

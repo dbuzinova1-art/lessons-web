@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extra 2 - Несколько источников</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef5f1;
+      margin: 0;
+      padding: 24px;
+    }
+
+    .panel {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 18px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    }
+
+    button {
+      background: #157347;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    #result {
+      margin-top: 14px;
+      padding: 12px;
+      min-height: 84px;
+      border: 1px solid #d4e4db;
+      border-radius: 8px;
+      background: #f7fcf9;
+    }
+
+    .ok, .bad {
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 8px;
+      background: #fff;
+    }
+
+    .ok { border: 1px solid #b7dbc7; }
+    .bad { border: 1px solid #f0c4c4; color: #b42318; }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Extra 2</h1>
+    <button id="load-all" type="button">Загрузить все</button>
+    <div id="result">Нажмите кнопку для параллельной загрузки источников.</div>
+  </div>
+
+  <script src="./task.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extra 3 - Resolve/Reject снаружи</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f4ee;
+      margin: 0;
+      padding: 24px;
+    }
+
+    .panel {
+      max-width: 700px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 10px;
+      padding: 18px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    button {
+      border: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      cursor: pointer;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    #start-btn { background: #0d6efd; }
+    #success-btn { background: #198754; }
+    #error-btn { background: #bb2d3b; }
+
+    button:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
+    #status {
+      border: 1px solid #e7ddd0;
+      border-radius: 8px;
+      background: #fffaf3;
+      min-height: 70px;
+      padding: 12px;
+      font-weight: 700;
+      color: #3a3a3a;
+    }
+
+    .loading { color: #0d6efd; }
+    .success { color: #198754; }
+    .error { color: #bb2d3b; }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Extra 3</h1>
+    <div class="controls">
+      <button id="start-btn" type="button">Начать</button>
+      <button id="success-btn" type="button">Успех</button>
+      <button id="error-btn" type="button">Ошибка</button>
+    </div>
+    <div id="status">Нажмите «Начать».</div>
+  </div>
+
+  <script src="./task.js"></script>
+</body>
+</html>
